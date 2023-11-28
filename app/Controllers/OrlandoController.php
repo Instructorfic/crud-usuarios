@@ -8,6 +8,6 @@ class OrlandoController extends BaseController
 {
     public function index()
     {
-        return("Saludo Orlando");
+        return "Saludo Orlando";
     }
 }

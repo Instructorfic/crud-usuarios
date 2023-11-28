@@ -16,3 +16,4 @@ $routes->get('users/edit/(:num)','UserController::edit/$1'); //Cargar la vista p
 $routes->put('users/(:num)','UserController::update/$1');//Modificar los datos del usuario
 $routes->delete('users/(:num)','UserController::delete/$1');//Eliminar al usuario
 $routes->get('Saludo_Orlando','OrlandoController::index');
+$routes->get('Saludo_Yaril', 'YarilController::index');
